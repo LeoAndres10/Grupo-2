@@ -1,3 +1,3 @@
-const fibbonacci = request('./Fibbonacci.js');
+const fibbonacci = require('./Fibbonacci');
 
-console.log(fibbonacci(3));
+console.log(fibbonacci(5));
